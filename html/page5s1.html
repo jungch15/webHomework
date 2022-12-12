@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한류 소개 페이지</title>
+    <link rel="stylesheet" href="../css/notice.css">
+</head>
+<body>
+    
+    <div id = "container">
+        <header>
+            <div id = "logo">
+                <a href="../index.html">
+                    <h1>KoreanWave</h1>
+                </a>
+            </div>
+            <nav>
+                <ul id="menu">
+                    <li>
+                        <a href="./page1.html">한류</a>
+                        
+                    </li>
+                    <li>
+                        <a href="./page2.html">역사</a>
+                        
+                    </li>
+                    <li><a href="./page3s1.html">분포</a></li>
+                    <li>
+                        <a href="./page4s1.html">종류</a>
+                        <ul>
+                            <li><a href="./page4s1.html">K-pop</a></li>
+                            <li><a href="./page4s2.html">한국 드라마</a></li>
+                            <li><a href="./page4s3.html">패션</a></li>
+                            <li><a href="./page4s4.html">뷰티</a></li>
+                            <li><a href="./page4s5.html">한식</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./page5s1.html">게시판</a>
+                        <ul>
+                            <li><a href="./page5s1.html">공지사항</a></li>
+                            <li><a href="./page5s2.html">갤러리</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div id="submenu">
+            <div>
+                <ul>
+                    <li><a href="./page5s1.html">공지사항</a></li>
+                    <li><a href="./page5s2.html">갤러리</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="contents">
+            <div id="one">
+                <br><br>
+                <h2><strong>공지사항</strong></h2>
+                <div id="notice">
+                    <br>
+                    <div id="top" class="row">
+                        <div class="number">번호</div>
+                        <div class="title">제목</div>
+                        <div class="writer">작성자</div>
+                        <div class="date">작성날짜</div>
+                        <div class="lookup">조회수</div>
+                    </div>
+                    <div class="row">
+                        <div class="number">1</div>
+                        <div class="title" ><a href="noticeread1.html">웹페이지 개설 안내</a></div>
+                        <div class="writer">관리자</div>
+                        <div class="date">2022-12-4</div>
+                        <div class="lookup">0</div>
+                    </div>
+                    <div class="row">
+                        <div class="number">2</div>
+                        <div class="title"><a href="noticeread2.html">웹페이지 사용법</a></div>
+                        <div class="writer">관리자</div>
+                        <div class="date">2022-12-4</div>
+                        <div class="lookup">0</div>
+                    </div>
+                    <div class="row">
+                        <div class="number">3</div>
+                        <div class="title"><a href="noticeread3.html">사용자 안내</a></div>
+                        <div class="writer">관리자</div>
+                        <div class="date">2022-12-4</div>
+                        <div class="lookup">0</div>
+                    </div>
+                    <div class="row">
+                        <div class="number">4</div>
+                        <div class="title"><a href="noticeread4.html">서버 안내</a></div>
+                        <div class="writer">관리자</div>
+                        <div class="date">2022-12-4</div>
+                        <div class="lookup">0</div>
+                    </div>
+                    <div class="row">
+                        <div class="number">5</div>
+                        <div class="title"><a href="noticeread5.html">프로그램 안내</a></div>
+                        <div class="writer">관리자</div>
+                        <div class="date">2022-12-4</div>
+                        <div class="lookup">0</div>
+                    </div>
+                    <br>
+                </div>
+                <div id="noticepage">
+                    <a href="javascript:changeone()" id="first"><<</a>
+                    <a href="#" id="before"><</a>
+                    <a href="javascript:changeone()" class="page">1</a>
+                    <a href="javascript:changetwo()" class="page">2</a>
+                    <a href="javascript:changethree()" class="page">3</a>
+                    <a href="javascript:changefour()" class="page">4</a>
+                    <a href="javascript:changefive()" class="page">5</a>
+                    <a href="#" id="after">></a>
+                    <a href="javascript:changefive()" id="last">>></a>
+                </div>
+                <div id="writebutton">
+                    <a href="./write.html">글 작성</a>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div id="sns">
+                <ul>
+                    <li><a href="#"><img src="../img/sns-1.png"></a></li>
+                    <li><a href="#"><img src="../img/sns-2.png"></a></li>
+                    <li><a href="#"><img src="../img/sns-3.png"></a></li>
+                </ul>
+            </div>
+            <div id="manager">
+                <p>한류 소개 페이지</p>
+                <p>(전화) 000-0000-0000</p> 
+            </div>
+        </footer>
+    </div>
+    <script src="../js/changenotice.js"></script>
+</body>
+</html>

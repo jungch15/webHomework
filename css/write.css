@@ -1,0 +1,226 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style : none;
+}
+
+#container{
+    margin : 0px auto;
+    width : 1200px;
+}
+
+/*header*/
+header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+#logo{
+    float : left;
+    width : 250px;
+    height: 100px;
+    padding-left: 20px;
+    line-height: 100px;
+}
+
+#logo h1{
+    font-weight: 700;
+    font-size:40px;
+    color: white;
+}
+
+/*nav*/
+nav{
+    float: right;
+    width: 900px;
+    height: 100px;
+    padding-top: 40px;
+}
+#menu{
+    height: 60px;
+}
+#menu > li{
+    float: left;
+    position: relative;
+}
+#menu > li:hover{
+    background: gray;
+}
+#menu > li > a{
+    display: block;
+    color: white;
+    font-weight: 500;
+    padding: 20px 60px;
+}
+#menu > li > a:hover{
+    color:yellow;
+}
+#menu > li ul{
+    display: none;
+    position: absolute;
+    width: 100%;
+    background : beige;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+#menu > li ul li {    
+    padding:10px 10px 10px 10px;
+}
+#menu > li:hover > ul{
+    display: block;
+    z-index: 3;
+}
+#menu > li > ul > li a{
+    color : black;
+}
+#menu > li > ul > li a:hover{
+    color : red;
+}
+
+/*section1*/
+#submenu{
+    width:200px;
+    float:left;
+    background-color: seashell;
+}
+#submenu div{
+    width:100%;
+    text-align: center;
+}
+#submenu div li{
+    margin:5px;
+}
+#contents{
+    width: 1000px;
+    text-align: center;
+    display: inline-block;
+    background: aliceblue;
+}
+#contents #one{
+    width : 100%;
+}
+#one > form > label, input, textarea{
+    text-align: left;
+    display: block;
+}
+#one form> label{
+    position: relative;
+    left: 10%;
+}
+#one #wttitle{
+    width:80%;
+    height:50px;
+    font-size: large;
+}
+#one #option{
+    width:80%;
+    height: 40px;
+    background: silver;
+}
+#option button{
+    width: 30px;
+    height: 30px;
+    margin:5px;
+    cursor: pointer;
+}
+#option #bold{
+    font-weight: bold;
+}
+#option #italic{
+    font-style: italic;
+    font-weight: bold;
+}
+#option #color{
+    font-weight: bold;
+}
+#option #btcolor > ul{
+    display:none;
+    width: 100px;
+    position: absolute;
+    background : beige;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+#option #btcolor{
+    float:left;
+}
+#option #btcolor:hover > ul{
+    display: block;
+    z-index: 10;
+}
+#option #btcolor > ul >li{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
+#option #btcolor > ul >li a{
+    display: block;
+    width: 10px;
+    height: 10px;
+}
+#btcolor #black{
+    background: black;
+}
+#btcolor #red{
+    background: red;
+}
+#btcolor #blue{
+    background: blue;
+}
+#btcolor #yellow{
+    background: yellow;
+}
+
+#one #wtcontent{
+    width:80%;
+    height: 400px;
+    color: red;
+}
+#noticepage a:hover{
+    color: black;
+}
+#writebutton{
+    height: 60px;
+}
+#writebutton a{
+    display: inline-block;
+    position:relative;
+    left: 45%;
+    top:10px;
+    padding-top: 10px;
+    width: 60px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: black;
+    color:white;
+}
+
+#sns {
+    position:absolute;  
+    right:200px;  /* 오른쪽 끝에 배치 */ 
+}
+#sns ul li{
+    border:none;  /* 테두리 없이 */
+    padding:5px;   
+    float: left;
+} 
+#manager{
+   clear:left;  /* 플로팅 해제. clear:both도 가능 */
+   margin-top:25px;  /* 위쪽 마진 */
+   margin-left:20px;  /* 왼쪽 마진 */ 
+}
+#manager p{
+    font-size:14px;  /* 글자 크기 */
+    color:#aaa;    /* 글자 색*/ 
+}

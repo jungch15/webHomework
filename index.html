@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한류 소개 페이지</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    
+    <div id = "container">
+        <header>
+            <div id = "logo">
+                <a href="index.html">
+                    <h1>KoreanWave</h1>
+                </a>
+            </div>
+            <nav>
+                <ul id="menu">
+                    <li>
+                        <a href="./html/page1.html">한류</a>
+                        
+                    </li>
+                    <li>
+                        <a href="./html/page2.html">역사</a>
+                        
+                    </li>
+                    <li><a href="./html/page3s1.html">분포</a></li>
+                    <li>
+                        <a href="./html/page4s1.html">종류</a>
+                        <ul>
+                            <li><a href="./html/page4s1.html">K-pop</a></li>
+                            <li><a href="./html/page4s2.html">한국 드라마</a></li>
+                            <li><a href="./html/page4s3.html">패션</a></li>
+                            <li><a href="./html/page4s4.html">뷰티</a></li>
+                            <li><a href="./html/page4s5.html">한식</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./html/page5s1.html">게시판</a>
+                        <ul>
+                            <li><a href="./html/page5s1.html">공지사항</a></li>
+                            <li><a href="./html/page5s2.html">갤러리</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div id = "section1">
+            <div id = "slideshow">
+                <img src="img/KoreanFlag.jpg" alt="">
+                <img src="img/image1.jpg" alt="">
+                <img src="img/kimchi.jpg" alt="">
+                <button id="before">&lang;</button>
+                <button id="after">&rang;</button>
+            </div>
+            <div id="login">
+                <h3>Log-in</h3>
+                <hr>
+                <br>
+                <form>
+                    <label>ID: <input id="id" type="text"></label>
+                    <label>Pwd:<input id="pwd" type="password"></label>
+                    <input id="loginbtn" type="button" value="로그인">
+                </form>
+                <span>
+                    ID를 잊어먹었나요?
+                </span>
+                <div>
+                    <a href="#">ID 찾기</a> / 
+                    <a href="#">Pwd 찾기</a>
+                </div>
+                <span>
+                    가입을 하지 않으셨나요?
+                </span>
+                <div>
+                    <a href="#">회원가입하기</a>
+                </div>
+            </div>
+            
+        </div>
+        <div id = "section2">
+            <div id="noticeboard">
+                <input type="radio" id="board1" name="boards" checked>
+                <label for="board1">공지사항</label>
+                <input type="radio" id="board2" name="boards">
+                <label for="board2">갤러리</label>
+                <hr>
+                <div id = "notice" class="board">
+                    <ul>            
+                        <li><a href="html/noticeread1.html">웹페이지 개설 안내</a></li>
+                        <li><a href="html/noticeread1.html">웹페이지 사용법</a></li>
+                        <li><a href="html/noticeread1.html">사용자 안내</a></li>
+                        <li><a href="html/noticeread1.html">서버 안내</a></li>
+                        <li><a href="html/noticeread1.html">프로그램 안내</a></li>            
+                    </ul>
+                </div>
+                <div id = "photo" class="board">
+                    <ul>            
+                        <li><img src="img/kyeong.jpg" alt=""></li>
+                        <li><img src="img/hankang.jpg" alt=""></li>
+                        <li><img src="img/jongro.jpg" alt=""></li>
+                        <li><img src="img/tteokbokki.jpg" alt=""></li>
+                        <li><img src="img/baekban.jpg" alt=""></li>
+                        <li><img src="img/bibimbab.jpg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="links">
+                <div>
+                    <a href="https://www.visitseoul.net/index"><img src="./img/visitseoul.jfif" alt="visitseoul"></a>
+                </div>
+                <div>
+                    <a href="https://korean.visitkorea.or.kr/main/main.do"><img src="./img/guseok.png" alt="구석구석"></a>
+                </div>
+                <div>
+                    <a href="https://www.koreanair.com/kr/ko"><img src="./img/airplane.jpg" alt="항공"></a>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div id="sns">
+                <ul>
+                    <li><a href="#"><img src="img/sns-1.png"></a></li>
+                    <li><a href="#"><img src="img/sns-2.png"></a></li>
+                    <li><a href="#"><img src="img/sns-3.png"></a></li>
+                </ul>
+            </div>
+            <div id="manager">
+                <p>한류 소개 페이지</p>
+                <p>(전화) 000-0000-0000</p> 
+            </div>
+        </footer>
+    </div>
+    <script src="js/slideshow.js"></script>
+</body>
+</html>
